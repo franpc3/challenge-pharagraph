@@ -6,9 +6,25 @@ Allowed
  
 ## Init 
 ```sh
-npm run api-start
+npm run start
 ```
+
+
+## Start local server
 
 | Method | URL |
 | ------ | ------ |
 | POST | http://localhost:3000/pharagraph |
+
+## Request 
+pharagraph: Consist of letters of the alphabet, space '', or any of the following symbols: "!? ',;."
+wordsNotAllowed: Is a word in "lowercase" that only contains letters of the alphabet (a-z)
+
+```sh
+POST body: 
+  {
+   pharagraph: 
+   wordsNotAllowed: []
+  }
+```
+
