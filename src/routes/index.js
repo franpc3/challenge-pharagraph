@@ -4,7 +4,7 @@ const { checkWords } = require('./../functions/checkWords');
 
 var router = express.Router();
 
-router.post('/', checkComposition , (req,res,next) => {
+router.post('/pharagraph', checkComposition , (req,res,next) => {
     checkWords(req,res,next);
     //res.send("Todo bien");
 });
