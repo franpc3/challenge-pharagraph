@@ -4,6 +4,11 @@ Given a string called "paragraph" and a list of strings called "words Not Allowe
 returned the most frequent word within the paragraph that is not in the list of words Not
 Allowed
  
+## Install 
+```sh
+npm install
+```
+ 
 ## Init 
 ```sh
 npm run start
