@@ -1,0 +1,26 @@
+{
+  "name": "challenge-pharagraph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "api": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franpc3/challenge-pharagraph.git"
+  },
+  "author": "Francisco Ponce Capua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franpc3/challenge-pharagraph/issues"
+  },
+  "homepage": "https://github.com/franpc3/challenge-pharagraph#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.13"
+  }
+}
